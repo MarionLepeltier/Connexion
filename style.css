@@ -1,0 +1,108 @@
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+/* Fin Reset CSS */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2em 3em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+}
+
+.container {
+  background-color: teal;
+  margin: 2em;
+}
+
+input {
+  margin: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+form input,
+form button {
+  border: 1px solid rgb(88, 85, 123);
+  border-radius: 3px;
+  margin-bottom: 1em;
+  padding: 0.7em 2em;
+}
+
+input:hover,
+input:focus {
+  background-color: rgb(255, 101, 132);
+  color: rgb(63, 61, 86);
+}
+a {
+  font-size: 14px;
+  color: rgb(63, 61, 86);
+}
+
+form button {
+  background-color: rgb(63, 61, 86);
+  color: rgb(230, 230, 230);
+  
+}
+h1 {
+  margin: 1em;
+  color: rgb(63, 61, 86);
+}
+img {
+  width: 50%;
+  margin: 2em;
+}
+
+@media screen and (min-width: 450px) {
+  .container {
+    width: 380px;
+    margin: 4em auto 0;
+    background-color: teal;
+    border: 3px solid rgb(63, 61, 86);
+    border-radius: 8px;
+    margin: 2em;
+  }
+  body {
+    background-color: rgb(230, 230, 230);
+  }
+}
+
+@media screen and (min-width: 875px) {
+  .container {
+    display: block;
+    width: 700px;
+    background-color: teal;
+    border: 3px solid rgb(63, 61, 86);
+    border-radius: 8px;
+    margin: 2em;
+  }
+  input:hover,
+  input:focus {
+    background-color: rgb(255, 101, 132);
+    color: rgb(63, 61, 86);
+    border: 1px solid rgb(63, 61, 86);
+  }
+
+
+
+}
